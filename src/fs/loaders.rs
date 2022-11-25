@@ -2,7 +2,6 @@ use std::collections::VecDeque;
 
 use ::hash40::diff::Diff;
 use msbt::{builder::MsbtBuilder, Msbt};
-use nus3audio::*;
 use motion_lib::*;
 use serde::*;
 use serde_xml_rs;
@@ -10,6 +9,7 @@ use serde_yaml::from_str;
 use bgm_property::BgmPropertyFile;
 use std::io::prelude::*;
 use xml::common::Position;
+use nus3audio::*;
 
 use super::*;
 
